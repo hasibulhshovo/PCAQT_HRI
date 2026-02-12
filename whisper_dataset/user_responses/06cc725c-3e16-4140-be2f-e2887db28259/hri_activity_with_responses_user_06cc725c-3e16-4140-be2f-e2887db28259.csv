@@ -1,0 +1,571 @@
+user_id,day,start_time,end_time,room_type,spatial_context,activity,social_context,num_people_around,num_animals_around,group_radius,distance_of_people,human_response
+06cc725c-3e16-4140-be2f-e2887db28259,1,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,1,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,1,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,1,9AM,10AM,bedroom,home,doing_homework,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,1,10AM,11AM,living_room,home,playing_games,with one person,1,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,1,11AM,12PM,balcony,smart home,listening_to_music,with robots,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,1,12PM,1PM,dining_room,home,lunch,with family,4,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,1,1PM,2PM,bedroom,home,reading,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,1,2PM,3PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,1,3PM,4PM,gym,home,exercising,with one person,1,0,sparse,sparse,noisy_help
+06cc725c-3e16-4140-be2f-e2887db28259,1,4PM,5PM,living_room,home,watching_tv,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,1,5PM,6PM,kitchen,home,cooking,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,1,6PM,7PM,dining_room,home,dinner,with family,4,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,1,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,1,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,1,9PM,10PM,bathroom,home,showering,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,1,10PM,11PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,1,11PM,12AM,bedroom,home,sleeping_and_waking_up,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,1,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,2,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,2,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,2,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,2,9AM,10AM,home_office,home,doing_homework,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,2,10AM,11AM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,2,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,2,12PM,1PM,dining_room,home,lunch,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,2,1PM,2PM,home_office,home,working_on_laptop,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,2,2PM,3PM,living_room,home,playing_games,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,2,3PM,4PM,balcony,home,listening_to_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,2,4PM,5PM,garden,backyard,gardening,with pets,0,2,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,2,5PM,6PM,kitchen,home,cooking,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,2,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,2,7PM,8PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,2,8PM,9PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,2,9PM,10PM,bedroom,home,meditating,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,2,10PM,11PM,bathroom,home,showering,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,2,11PM,12AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,2,12AM,6AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,3,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,3,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,3,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,3,9AM,10AM,home_office,home,doing_homework,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,3,10AM,11AM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,3,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,3,12PM,1PM,dining_room,home,lunch,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,3,1PM,2PM,home_office,home,working_on_laptop,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,3,2PM,3PM,living_room,home,playing_games,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,3,3PM,4PM,balcony,home,listening_to_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,3,4PM,5PM,garden,backyard,gardening,with pets,0,2,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,3,5PM,6PM,kitchen,home,cooking,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,3,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,3,7PM,8PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,3,8PM,9PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,3,9PM,10PM,bedroom,home,meditating,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,3,10PM,11PM,bathroom,home,showering,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,3,11PM,12AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,3,12AM,6AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,4,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,4,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,4,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,4,9AM,10AM,home_office,home,doing_homework,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,4,10AM,11AM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,4,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,4,12PM,1PM,dining_room,home,lunch,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,4,1PM,2PM,home_office,home,working_on_laptop,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,4,2PM,3PM,living_room,home,playing_games,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,4,3PM,4PM,balcony,home,listening_to_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,4,4PM,5PM,garden,backyard,gardening,with pets,0,2,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,4,5PM,6PM,kitchen,home,cooking,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,4,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,4,7PM,8PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,4,8PM,9PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,4,9PM,10PM,bedroom,home,meditating,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,4,10PM,11PM,bathroom,home,showering,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,4,11PM,12AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,4,12AM,6AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,5,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,5,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,5,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,5,9AM,10AM,home_office,home,doing_homework,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,5,10AM,11AM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,5,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,5,12PM,1PM,dining_room,home,lunch,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,5,1PM,2PM,home_office,home,working_on_laptop,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,5,2PM,3PM,living_room,home,playing_games,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,5,3PM,4PM,balcony,home,listening_to_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,5,4PM,5PM,garden,backyard,gardening,with pets,0,2,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,5,5PM,6PM,kitchen,home,cooking,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,5,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,5,7PM,8PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,5,8PM,9PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,5,9PM,10PM,bedroom,home,meditating,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,5,10PM,11PM,bathroom,home,showering,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,5,11PM,12AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,5,12AM,6AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,6,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,6,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,6,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,6,9AM,10AM,home_office,home,doing_homework,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,6,10AM,11AM,home_office,home,working_on_laptop,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,6,11AM,12PM,living_room,home,watching_tv,with one person,1,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,6,12PM,1PM,dining_room,home,lunch,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,6,1PM,2PM,bedroom,home,reading,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,6,2PM,3PM,gym,home,exercising,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,6,3PM,4PM,living_room,home,playing_games,with classmates,2,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,6,4PM,5PM,balcony,smart home,listening_to_music,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,6,5PM,6PM,kitchen,home,cooking,with family,3,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,6,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,6,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,6,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,6,9PM,10PM,bathroom,home,showering,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,6,10PM,11PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,6,11PM,12AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,6,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,7,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,7,7AM,8AM,bathroom,home,showering,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,7,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,7,9AM,10AM,home_office,home,doing_homework,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,7,10AM,11AM,home_office,home,working_on_laptop,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,7,11AM,12PM,living_room,home,watching_tv,with one person,1,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,7,12PM,1PM,dining_room,home,lunch,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,7,1PM,2PM,bedroom,home,reading,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,7,2PM,3PM,gym,home,exercising,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,7,3PM,4PM,living_room,home,playing_games,with classmates,2,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,7,4PM,5PM,balcony,smart home,listening_to_music,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,7,5PM,6PM,kitchen,home,cooking,with family,3,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,7,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,7,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,7,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,7,9PM,10PM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,7,10PM,11PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,7,11PM,12AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,7,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,8,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,8,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,8,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,8,9AM,10AM,home_office,home,doing_homework,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,8,10AM,11AM,home_office,home,working_on_laptop,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,8,11AM,12PM,living_room,home,watching_tv,with one person,1,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,8,12PM,1PM,dining_room,home,lunch,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,8,1PM,2PM,bedroom,home,reading,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,8,2PM,3PM,gym,home,exercising,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,8,3PM,4PM,living_room,home,playing_games,with classmates,2,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,8,4PM,5PM,balcony,smart home,listening_to_music,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,8,5PM,6PM,kitchen,home,cooking,with family,3,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,8,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,8,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,8,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,8,9PM,10PM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,8,10PM,11PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,8,11PM,12AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,8,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,9,6AM,7AM,bathroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,9,7AM,8AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,9,8AM,9AM,bedroom,home,getting_ready_for_school,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,9,9AM,10AM,home_office,home,doing_homework,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,9,10AM,11AM,living_room,home,listening_to_music,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,9,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,9,12PM,1PM,dining_room,home,lunch,with family,4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,9,1PM,2PM,home_office,home,working_on_laptop,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,9,2PM,3PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,9,3PM,4PM,balcony,home,reading,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,9,4PM,5PM,garden,backyard,gardening,alone,0,2,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,9,5PM,6PM,kitchen,home,cooking,with family,3,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,9,6PM,7PM,dining_room,home,dinner,with family,4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,9,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,9,8PM,9PM,bedroom,home,playing_games,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,9,9PM,10PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,9,10PM,11PM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,9,11PM,12AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,9,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,10,6AM,7AM,bathroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,10,7AM,8AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,10,8AM,9AM,bedroom,home,getting_ready_for_school,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,10,9AM,10AM,home_office,home,doing_homework,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,10,10AM,11AM,living_room,home,listening_to_music,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,10,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,10,12PM,1PM,dining_room,home,lunch,with family,4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,10,1PM,2PM,home_office,home,working_on_laptop,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,10,2PM,3PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,10,3PM,4PM,balcony,home,reading,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,10,4PM,5PM,garden,backyard,gardening,alone,0,2,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,10,5PM,6PM,kitchen,home,cooking,with family,3,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,10,6PM,7PM,dining_room,home,dinner,with family,4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,10,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,10,8PM,9PM,bedroom,home,playing_games,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,10,9PM,10PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,10,10PM,11PM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,10,11PM,12AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,10,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,11,6AM,7AM,bathroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,11,7AM,8AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,11,8AM,9AM,bedroom,home,getting_ready_for_school,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,11,9AM,10AM,home_office,home,doing_homework,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,11,10AM,11AM,living_room,home,listening_to_music,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,11,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,11,12PM,1PM,dining_room,home,lunch,with family,4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,11,1PM,2PM,home_office,home,working_on_laptop,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,11,2PM,3PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,11,3PM,4PM,balcony,home,reading,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,11,4PM,5PM,garden,backyard,gardening,alone,0,2,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,11,5PM,6PM,kitchen,home,cooking,with family,3,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,11,6PM,7PM,dining_room,home,dinner,with family,4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,11,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,11,8PM,9PM,bedroom,home,playing_games,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,11,9PM,10PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,11,10PM,11PM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,11,11PM,12AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,11,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,12,6AM,7AM,bathroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,12,7AM,8AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,12,8AM,9AM,bedroom,home,getting_ready_for_school,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,12,9AM,10AM,home_office,home,doing_homework,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,12,10AM,11AM,living_room,home,listening_to_music,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,12,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,12,12PM,1PM,dining_room,home,lunch,with family,4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,12,1PM,2PM,home_office,home,working_on_laptop,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,12,2PM,3PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,12,3PM,4PM,balcony,home,reading,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,12,4PM,5PM,garden,backyard,gardening,alone,0,2,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,12,5PM,6PM,kitchen,home,cooking,with family,3,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,12,6PM,7PM,dining_room,home,dinner,with family,4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,12,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,12,8PM,9PM,bedroom,home,playing_games,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,12,9PM,10PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,12,10PM,11PM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,12,11PM,12AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,12,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,13,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,13,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,13,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,13,9AM,10AM,home_office,smart home,doing_homework,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,13,10AM,11AM,gym,home,exercising,with one person,1,0,sparse,sparse,noisy_help
+06cc725c-3e16-4140-be2f-e2887db28259,13,11AM,12PM,living_room,home,watching_tv,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,13,12PM,1PM,dining_room,home,lunch,with classmates,2,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,13,1PM,2PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,13,2PM,3PM,living_room,home,playing_games,with one person,1,1,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,13,3PM,4PM,balcony,home,listening_to_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,13,4PM,5PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,13,5PM,6PM,kitchen,home,cooking,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,13,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,13,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,13,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,13,9PM,10PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,13,10PM,11PM,bedroom,home,meditating,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,13,11PM,12AM,bedroom,home,sleeping_and_waking_up,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,13,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,14,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,14,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,14,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,14,9AM,10AM,home_office,smart home,doing_homework,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,14,10AM,11AM,gym,home,exercising,with one person,1,0,sparse,sparse,noisy_help
+06cc725c-3e16-4140-be2f-e2887db28259,14,11AM,12PM,living_room,home,watching_tv,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,14,12PM,1PM,dining_room,home,lunch,with classmates,2,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,14,1PM,2PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,14,2PM,3PM,living_room,home,playing_games,with one person,1,1,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,14,3PM,4PM,balcony,home,listening_to_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,14,4PM,5PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,14,5PM,6PM,kitchen,home,cooking,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,14,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,14,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,14,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,14,9PM,10PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,14,10PM,11PM,bedroom,home,meditating,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,14,11PM,12AM,bedroom,home,sleeping_and_waking_up,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,14,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,15,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,15,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,15,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,15,9AM,10AM,home_office,smart home,doing_homework,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,15,10AM,11AM,gym,home,exercising,with one person,1,0,sparse,sparse,noisy_help
+06cc725c-3e16-4140-be2f-e2887db28259,15,11AM,12PM,living_room,home,watching_tv,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,15,12PM,1PM,dining_room,home,lunch,with classmates,2,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,15,1PM,2PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,15,2PM,3PM,living_room,home,playing_games,with one person,1,1,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,15,3PM,4PM,balcony,home,listening_to_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,15,4PM,5PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,15,5PM,6PM,kitchen,home,cooking,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,15,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,15,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,15,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,15,9PM,10PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,15,10PM,11PM,bedroom,home,meditating,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,15,11PM,12AM,bedroom,home,sleeping_and_waking_up,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,15,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,16,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,16,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,16,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,16,9AM,10AM,home_office,smart home,doing_homework,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,16,10AM,11AM,gym,home,exercising,with one person,1,0,sparse,sparse,noisy_help
+06cc725c-3e16-4140-be2f-e2887db28259,16,11AM,12PM,living_room,home,watching_tv,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,16,12PM,1PM,dining_room,home,lunch,with classmates,2,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,16,1PM,2PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,16,2PM,3PM,living_room,home,playing_games,with one person,1,1,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,16,3PM,4PM,balcony,home,listening_to_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,16,4PM,5PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,16,5PM,6PM,kitchen,home,cooking,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,16,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,16,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,16,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,16,9PM,10PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,16,10PM,11PM,bedroom,home,meditating,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,16,11PM,12AM,bedroom,home,sleeping_and_waking_up,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,16,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,9AM,10AM,home_office,smart home,doing_homework,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,17,10AM,11AM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,12PM,1PM,dining_room,home,lunch,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,1PM,2PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,17,2PM,3PM,living_room,home,playing_games,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,3PM,4PM,balcony,home,listening_to_music,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,4PM,5PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,17,5PM,6PM,kitchen,home,cooking,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,8PM,9PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,9PM,10PM,bedroom,home,getting_dressed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,10PM,11PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,17,11PM,12AM,bedroom,home,sleeping_and_waking_up,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,17,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,8AM,9AM,kitchen,home,breakfast,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,9AM,10AM,home_office,smart home,doing_homework,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,18,10AM,11AM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,12PM,1PM,dining_room,home,lunch,with family,5,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,1PM,2PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,18,2PM,3PM,living_room,home,playing_games,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,3PM,4PM,balcony,home,listening_to_music,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,4PM,5PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,18,5PM,6PM,kitchen,home,cooking,with family,3,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,6PM,7PM,dining_room,home,dinner,with family,4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,7PM,8PM,living_room,home,socializing,with a small group (3-5),5,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,8PM,9PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,9PM,10PM,bedroom,home,getting_dressed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,10PM,11PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,18,11PM,12AM,bedroom,home,sleeping_and_waking_up,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,18,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,9AM,10AM,home_office,smart home,doing_homework,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,19,10AM,11AM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,12PM,1PM,dining_room,home,lunch,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,1PM,2PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,2PM,3PM,living_room,home,playing_games,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,19,3PM,4PM,balcony,home,listening_to_music,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,4PM,5PM,bedroom,home,reading,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,5PM,6PM,kitchen,home,cooking,with family,3,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,6PM,7PM,dining_room,home,dinner,with family,4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,8PM,9PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,9PM,10PM,bedroom,home,getting_dressed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,10PM,11PM,bedroom,home,reading,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,11PM,12AM,bedroom,home,sleeping_and_waking_up,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,19,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,9AM,10AM,home_office,smart home,doing_homework,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,20,10AM,11AM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,12PM,1PM,dining_room,home,lunch,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,1PM,2PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,20,2PM,3PM,living_room,home,playing_games,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,3PM,4PM,balcony,home,listening_to_music,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,4PM,5PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,20,5PM,6PM,kitchen,home,cooking,with family,3,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,6PM,7PM,dining_room,home,dinner,with family,4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,8PM,9PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,9PM,10PM,bedroom,home,getting_dressed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,10PM,11PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,20,11PM,12AM,bedroom,home,sleeping_and_waking_up,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,20,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,21,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,21,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,21,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,21,9AM,10AM,home_office,smart home,doing_homework,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,21,10AM,11AM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,21,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,21,12PM,1PM,dining_room,home,lunch,with family,3,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,21,1PM,2PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,21,2PM,3PM,living_room,home,playing_games,with one person,1,1,sparse,sparse,noisy_help
+06cc725c-3e16-4140-be2f-e2887db28259,21,3PM,4PM,balcony,home,listening_to_music,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,21,4PM,5PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,21,5PM,6PM,kitchen,home,cooking,with family,2,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,21,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,21,7PM,8PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,21,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,21,9PM,10PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,21,10PM,11PM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,21,11PM,12AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,21,12AM,6AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,22,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,22,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,22,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,22,9AM,10AM,home_office,smart home,doing_homework,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,22,10AM,11AM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,22,11AM,12PM,gym,home,exercising,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,22,12PM,1PM,dining_room,home,lunch,with family,4,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,22,1PM,2PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,22,2PM,3PM,living_room,home,playing_games,with one person,1,1,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,22,3PM,4PM,balcony,home,listening_to_music,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,22,4PM,5PM,bedroom,home,reading,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,22,5PM,6PM,kitchen,home,cooking,with family,2,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,22,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,22,7PM,8PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,22,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,22,9PM,10PM,bedroom,home,reading,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,22,10PM,11PM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,22,11PM,12AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,22,12AM,6AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,23,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,23,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,23,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,23,9AM,10AM,home_office,smart home,doing_homework,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,23,10AM,11AM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,23,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,23,12PM,1PM,dining_room,home,lunch,with family,3,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,23,1PM,2PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,23,2PM,3PM,living_room,home,playing_games,with one person,1,1,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,23,3PM,4PM,balcony,home,listening_to_music,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,23,4PM,5PM,bedroom,home,reading,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,23,5PM,6PM,kitchen,home,cooking,with family,2,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,23,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,23,7PM,8PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,23,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,23,9PM,10PM,bedroom,home,reading,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,23,10PM,11PM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,23,11PM,12AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,23,12AM,6AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,24,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,24,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,24,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,24,9AM,10AM,home_office,smart home,doing_homework,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,24,10AM,11AM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,24,11AM,12PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,24,12PM,1PM,dining_room,home,lunch,with family,3,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,24,1PM,2PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,24,2PM,3PM,living_room,home,playing_games,with one person,1,1,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,24,3PM,4PM,balcony,home,listening_to_music,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,24,4PM,5PM,bedroom,home,reading,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,24,5PM,6PM,kitchen,home,cooking,with family,2,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,24,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,24,7PM,8PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,24,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,24,9PM,10PM,bedroom,home,reading,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,24,10PM,11PM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,24,11PM,12AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,24,12AM,6AM,bedroom,home,sleeping,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,25,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,25,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,25,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,25,9AM,10AM,bedroom,home,doing_homework,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,25,10AM,11AM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,25,11AM,12PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,25,12PM,1PM,dining_room,home,lunch,with family,4,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,25,1PM,2PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,25,2PM,3PM,bedroom,home,reading,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,25,3PM,4PM,garden,backyard,walking,with pets,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,25,4PM,5PM,living_room,home,playing_games,with one person,1,0,sparse,sparse,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,25,5PM,6PM,kitchen,home,cooking,with family,2,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,25,6PM,7PM,dining_room,home,dinner,with family,4,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,25,7PM,8PM,living_room,home,watching_tv,with a small group (3-5),3,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,25,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,25,9PM,10PM,bedroom,home,reading,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,25,10PM,11PM,bathroom,home,showering,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,25,11PM,12AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,25,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,26,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,26,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,26,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,26,9AM,10AM,home_office,smart home,doing_homework,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,26,10AM,11AM,living_room,home,playing_games,with classmates,2,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,26,11AM,12PM,balcony,home,listening_to_music,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,26,12PM,1PM,dining_room,home,lunch,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,26,1PM,2PM,bedroom,home,reading,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,26,2PM,3PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,26,3PM,4PM,living_room,home,watching_tv,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,26,4PM,5PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,26,5PM,6PM,kitchen,home,cooking,with one person,1,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,26,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,26,7PM,8PM,living_room,home,playing_games,with classmates,2,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,26,8PM,9PM,bedroom,home,reading,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,26,9PM,10PM,bathroom,home,showering,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,26,10PM,11PM,bedroom,home,sleeping_and_waking_up,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,26,11PM,12AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,26,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,27,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,27,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,27,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,27,9AM,10AM,bedroom,home,doing_homework,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,27,10AM,11AM,living_room,home,playing_games,with classmates,2,0,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,27,11AM,12PM,balcony,home,listening_to_music,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,27,12PM,1PM,dining_room,home,lunch,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,27,1PM,2PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,27,2PM,3PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,27,3PM,4PM,living_room,home,watching_tv,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,27,4PM,5PM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,27,5PM,6PM,kitchen,home,cooking,with one person,1,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,27,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,27,7PM,8PM,living_room,home,playing_games,with classmates,2,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,27,8PM,9PM,bedroom,home,reading,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,27,9PM,10PM,bathroom,home,showering,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,27,10PM,11PM,bedroom,home,sleeping_and_waking_up,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,27,11PM,12AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,27,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,28,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,28,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,28,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,28,9AM,10AM,bedroom,home,doing_homework,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,28,10AM,11AM,home_office,smart home,working_on_laptop,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,28,11AM,12PM,living_room,home,playing_games,with classmates,2,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,28,12PM,1PM,dining_room,home,lunch,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,28,1PM,2PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,28,2PM,3PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,28,3PM,4PM,living_room,home,watching_tv,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,28,4PM,5PM,balcony,home,listening_to_music,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,28,5PM,6PM,kitchen,home,cooking,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,28,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,28,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,28,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,28,9PM,10PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,28,10PM,11PM,bathroom,home,showering,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,28,11PM,12AM,bedroom,home,sleeping_and_waking_up,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,28,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,29,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,29,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,29,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,29,9AM,10AM,bedroom,home,doing_homework,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,29,10AM,11AM,home_office,smart home,working_on_laptop,with robots,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,29,11AM,12PM,living_room,home,watching_tv,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,29,12PM,1PM,dining_room,home,lunch,with family,4,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,29,1PM,2PM,bedroom,home,reading,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,29,2PM,3PM,gym,home,exercising,with one person,1,0,sparse,sparse,help
+06cc725c-3e16-4140-be2f-e2887db28259,29,3PM,4PM,living_room,home,playing_games,with classmates,2,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,29,4PM,5PM,balcony,home,listening_to_music,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,29,5PM,6PM,kitchen,home,cooking,with family,3,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,29,6PM,7PM,dining_room,home,dinner,with family,4,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,29,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,29,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,29,9PM,10PM,bathroom,home,showering,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,29,10PM,11PM,bedroom,home,reading,alone,0,1,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,29,11PM,12AM,bedroom,home,sleeping_and_waking_up,alone,0,1,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,29,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,30,6AM,7AM,bedroom,home,getting_out_of_bed,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,30,7AM,8AM,bathroom,home,brushing_teeth,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,30,8AM,9AM,kitchen,home,breakfast,with family,3,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,30,9AM,10AM,bedroom,home,doing_homework,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,30,10AM,11AM,home_office,home,working_on_laptop,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,30,11AM,12PM,living_room,home,listening_to_music,with pets,0,2,clustered,clustered,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,30,12PM,1PM,dining_room,home,lunch,with family,4,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,30,1PM,2PM,living_room,home,watching_tv,with one person,1,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,30,2PM,3PM,gym,home,exercising,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,30,3PM,4PM,bedroom,home,reading,alone,0,0,n/a,n/a,help
+06cc725c-3e16-4140-be2f-e2887db28259,30,4PM,5PM,living_room,home,playing_games,with classmates,2,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,30,5PM,6PM,kitchen,home,cooking,with family,3,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,30,6PM,7PM,dining_room,home,dinner,with family,4,1,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,30,7PM,8PM,living_room,home,socializing,with a small group (3-5),4,0,clustered,clustered,help
+06cc725c-3e16-4140-be2f-e2887db28259,30,8PM,9PM,bedroom,home,playing_music,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,30,9PM,10PM,bathroom,home,showering,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,30,10PM,11PM,bedroom,home,meditating,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,30,11PM,12AM,bedroom,home,sleeping_and_waking_up,alone,0,0,n/a,n/a,no_help
+06cc725c-3e16-4140-be2f-e2887db28259,30,12AM,6AM,bedroom,home,sleeping,alone,0,0,n/a,n/a,no_help
